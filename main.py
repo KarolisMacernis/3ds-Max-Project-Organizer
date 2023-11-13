@@ -56,11 +56,11 @@ def rename_max():
         else:
             continue
 
+        max_name_no_number = f"{project_name}{ext}"
+
     # Remove the numbering if there is only one file.
     if max_file_number == 1:
-        max_name_no_number = f"{project_name}{ext}"
         os.rename(new_max_name, max_name_no_number)
-
 def rename_renders():
     """Rename the render images according to the name of the project followed by an underscore and a number."""
 
