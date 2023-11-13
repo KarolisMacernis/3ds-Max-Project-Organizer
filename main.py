@@ -56,7 +56,7 @@ def rename_max():
         else:
             continue
 
-    max_name_no_number = f"{project_name}{ext}"
+        max_name_no_number = f"{project_name}{ext}"
 
     # Remove the numbering if there is only one file.
     if max_file_number == 1:
